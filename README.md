@@ -13,3 +13,5 @@
 
 ### Screenshots
 ![alt text](https://github.com/TonyTwoStep/septa-live-map/blob/master/screenshots/SeptaLiveMap.png)
+
+#### Disclaimer: Not officially affiliated with SEPTA, just using their publically availible API
