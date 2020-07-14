@@ -1,5 +1,7 @@
 # septa-live-map
-Docker container for a Flask webserver that shows the live locations and trip details of all SEPTA buses and trollys updated every few seconds from SEPTA's official API.
+* Shows the live locations and trip details of all SEPTA buses and trollys
+* Docker container for a Flask webserver
+* Updated every few seconds from SEPTA's official API
 
 [Check out the live site!](https://septa-live-map.boj4ck.com/) 
 
@@ -10,3 +12,4 @@ Docker container for a Flask webserver that shows the live locations and trip de
 ```docker run tony2step/septa-live-map -p 80:80```
 
 ### Screenshots
+![alt text](https://github.com/TonyTwoStep/septa-live-map/blob/master/screenshots/SeptaLiveMap.png)
