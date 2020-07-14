@@ -1,0 +1,42 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Septa Bus and Trolly Locations</title>
+<!-- CSS  -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="/static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="/static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <style>
+     /* Set the size of the div element that contains the map */
+    #map_canvas {
+      height: 95%;  /
+      width: 100%;
+     }
+  </style>
+<!-- START MAP -->
+
+    {{ map_js | safe }}
+
+<!-- END MAP -->
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+
+  <nav class="green darken-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="https://github.com/TonyTwoStep/septa-live-map" class="brand-logo"><img style="padding: 5px 5px 5px 5px;" src="/static/septa.png" width="60"></a>
+      <a id="logo-container-two" href="https://github.com/TonyTwoStep/septa-live-map" class="brand-logo-words">Live Locations (Trolleys & Buses)</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href=".">Refresh</a></li>
+          <li><a href="https://hub.docker.com/repository/docker/tony2step/septa-live-map">DockerHub Image</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+          <div id="map_canvas"></div>
+
+</body>
+</html>
