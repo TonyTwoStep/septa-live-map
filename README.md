@@ -6,10 +6,10 @@
 [Check out the live site!](https://septa-live-map.boj4ck.com/) 
 
 ## Docker image on Docker Hub
-[tony2step/septa-live-map](https://hub.docker.com/repository/docker/tony2step/septa-live-map/general)
+[tony2step/septa-live-map](https://hub.docker.com/r/tony2step/septa-live-mapl)
 
 ### Usage
-```docker run tony2step/septa-live-map -p 80:80```
+```docker run -d -p 80:80 tony2step/septa-live-map```
 
 ### Screenshots
 ![alt text](https://github.com/TonyTwoStep/septa-live-map/blob/master/screenshots/SeptaLiveMap.png)
