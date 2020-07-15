@@ -3,7 +3,7 @@
 * Docker container for a Flask webserver
 * Updated every few seconds from SEPTA's official API
 
-[Check out the live site!](https://septa-live-map.boj4ck.com/) 
+[Check out the live site!](https://septa.boj4ck.com/) 
 
 ## Docker image on Docker Hub
 [tony2step/septa-live-map](https://hub.docker.com/r/tony2step/septa-live-mapl)
